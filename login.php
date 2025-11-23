@@ -69,7 +69,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <input name="email" type="email" placeholder="Correo (opcional)" />
       <button type="submit">Ingresar</button>
     </form>
-    <small>Tras ingresar, se generará un OTP y un JWT de desafío válido por 5 minutos.</small>
   </div>
 </body>
 </html>
